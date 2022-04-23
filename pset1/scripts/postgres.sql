@@ -68,6 +68,12 @@ CREATE TABLE IF NOT EXISTS departamento (
 	
 );
 
+-- Cria Chave Alternativa
+CREATE UNIQUE INDEX ak_departamento
+ON elmasri.departamento
+( nome_departamento )
+;
+
 /*
 * Adicionando comentarios a tabela e suas colunas.
 * "será adicionado aos metadados da tabela após sua criação"
@@ -214,6 +220,12 @@ CREATE TABLE IF NOT EXISTS projeto (
 	CONSTRAINT pk_projeto 
         PRIMARY KEY (numero_projeto)
 );
+
+-- Cria Chave Alternativa
+CREATE UNIQUE INDEX ak_projeto
+ON projeto
+( nome_projeto )
+;
 
 -- Table comment
 comment on
