@@ -1,10 +1,34 @@
+-- INICIO DO SCRIPT
+
+/*
+* PARTE 1
+* Configurações iniciais de criação de usuário e banco de dados.
+*/
+
+-- Cria usuário do SGBD
 CREATE USER IF NOT EXISTS joao 
     IDENTIFIED BY '1234';
 
+-- Cria Banco de dados UVV com suas propriedades e permissões
 CREATE DATABASE IF NOT EXISTS uvv;
 
+-- Concede todos privilégios de administrador ao usuário
 GRANT ALL PRIVILEGES ON uvv.* TO joao; 
 
+-- Entra com o usuário criado no SGBD
+SYSTEM mysql -u joao -p;
+
+-- Entra no BD criado
+use uvv;
+
+/*#####################################################################################*/
+
+/*
+* PARTE 2
+* Criação das tabelas do BD.
+*/
+
+-- Desabilita a checagem das FKs pra fazer atualização do BD
 SET FOREIGN_KEY_CHECKS=0; -- to disable them
 
 -- Drop Table departamento
@@ -20,7 +44,6 @@ CREATE TABLE IF NOT EXISTS uvv.departamento (
 	CONSTRAINT pk_departamento
 		PRIMARY KEY (numero_departamento)
 );
-
 
 /*
 * Adicionando comentarios a tabela e suas colunas.
@@ -139,6 +162,15 @@ CREATE TABLE IF NOT EXISTS uvv.trabalha_em (
 		PRIMARY KEY (cpf_funcionario, numero_projeto)
 );
 
+
+/*#####################################################################################*/
+
+/*
+* PARTE 3
+* Crindo os relacionamentos entre as tabelas
+*/
+
+
 -- Table comments
 ALTER TABLE uvv.trabalha_em COMMENT 'Tabela para armazenar quais funcionários trabalham em quais projetos.';
 -- End Table trabalha_em
@@ -187,6 +219,12 @@ ON DELETE SET DEFAULT ;
 
 SET FOREIGN_KEY_CHECKS=1; -- to re-enable them
 
+/*#####################################################################################*/
+
+/*
+* PARTE 4
+* Inserindo dados nos arquivos do banco de dados.
+*/
 
 INSERT INTO uvv.funcionario
     (primeiro_nome, nome_meio, ultimo_nome, cpf, data_nascimento, endereco, sexo, salario, cpf_supervisor, numero_departamento) VALUES
