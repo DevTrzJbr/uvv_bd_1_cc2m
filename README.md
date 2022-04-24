@@ -1,13 +1,22 @@
-# uvv_bd_1_cc2m
-Repositório da matéria de Design e Desenvolvimentode Banco de Dados na Universidade de Vila Velha - UVV, Espírito Santo.
+# Banco de Dados
+Este é um repositório de desafios propostos da disciplina de **Banco de Dados I** por meio de **psets**. Todos os projetos estão documentados nos seus respectivos subdiretórios.
 
-# Cabeçalho
-**Problem Set 1**
+Problem set
+-----------
 
-**Aluno:** João Víctor de Alcantara Antunes
+Um conjunto de problemas, às vezes abreviado como pset, é uma ferramenta de ensino usada por muitas universidades. 
 
-**Professor:** Abrantes Araújo Silva Filho
+> É essencialmente uma lista de vários problemas ou exercícios ligeiramente difíceis baseados em material já ensinado, que se espera que o aluno resolva com uma solução escrita completa. Não há mais pesquisas envolvidas, e o objetivo é aprender e se familiarizar com o material e resolver problemas típicos. 
+Eles geralmente são emitidos uma vez a cada semana ou duas semanas e devem ser entregues uma ou duas semanas depois.
 
-**Disciplina:** Design e Desenvolvimento de Banco de Dados
 
-**Turma:** CC2M
+## Ciência da Computação UVV
+- **Aluno:** João Víctor de Alcantara Antunes
+
+- **Professor:** Abrantes Araújo Silva Filho
+
+- **Disciplina:** Design e Desenvolvimento de Banco de Dados
+
+- **Turma:** CC2M
+
+> The overriding design goal for Markdown's
