@@ -23,4 +23,4 @@ Psets Resolvidos
 
 - **Turma:** CC2M
 
-> The overriding design goal for Markdown's
+> Muito trabalho, esforço e noites sem dormir para solucionar os problemas.
