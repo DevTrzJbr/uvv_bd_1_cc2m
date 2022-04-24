@@ -5,7 +5,7 @@ O problema
 ------
 - [x] Desvendar os problemas no modelo lógico do BD 
 - [x] Modificar o modelo com sua correções
-- [x] Criar [scripts](/scripts) implementando o modelo nos SGBDs
+- [x] Criar [scripts](/pset1/scripts) implementando o modelo nos SGBDs
   - [x]  PostgreSQL
   - [x]  MariaDB
   - [ ]  Oracle (opcional)
