@@ -10,6 +10,6 @@ Cada script neste repositório está documentado de acordo com cada sintaxe e pr
 O postgres possui a criação de um schema para utilizar junto ao BD,
 a definição do esquema especifica qual modelo lógico o dentro do BD será usado.
 
-[MarioDB](mariaDB.sql)
+[MariaDB](mariaDB.sql)
 -------
 > Este SGBD surgiu como fork do MySQL, criado pelo próprio fundador do projeto após sua aquisição pela Oracle.
