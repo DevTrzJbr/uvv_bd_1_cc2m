@@ -13,3 +13,5 @@ a definição do esquema especifica qual modelo lógico o dentro do BD será usa
 [MariaDB](mariaDB.sql)
 -------
 > Este SGBD surgiu como fork do MySQL, criado pelo próprio fundador do projeto após sua aquisição pela Oracle.
+
+Ele não possui criação de schema como no postgres, mas sua sintaxe e modo de uso são de fácil entendimento, mais simples de usar.
