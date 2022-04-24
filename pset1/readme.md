@@ -1,13 +1,19 @@
-# uvv_bd_1_cc2m
-Repositório da matéria de Design e Desenvolvimentode Banco de Dados na Universidade de Vila Velha - UVV, Espírito Santo.
+# Problem set 1
+O primeiro problem set foi dado um documento especificando as exigencias do problema a ser resolvido.
 
-# Cabeçalho
-**Problem Set 1**
+O problema
+------
+- [x] Desvendar os problemas no modelo lógico do BD 
+- [x] Modificar o modelo com sua correções
+- [x] Criar [scripts](/script) implementando o modelo nos SGBDs
+  - [x]  PostgreSQL
+  - [x]  MariaDB
+  - [ ]  Oracle (opcional)
 
-**Aluno:** João Víctor de Alcantara Antunes
+Tecnologias envolvidas
+--------------
+- Linguagem SQL
+- PostgresSQL
+- MariaDB / Mysql
 
-**Professor:** Abrantes Araújo Silva Filho
 
-**Disciplina:** Design e Desenvolvimento de Banco de Dados
-
-**Turma:** CC2M
