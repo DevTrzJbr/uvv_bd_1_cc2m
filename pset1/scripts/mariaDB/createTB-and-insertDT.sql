@@ -1,32 +1,14 @@
--- INICIO DO SCRIPT
-
 /*
-* PARTE 1
-* Configurações iniciais de criação de usuário e banco de dados.
-*/
-
--- Cria usuário do SGBD
-CREATE USER IF NOT EXISTS joao 
-    IDENTIFIED BY '1234';
-
--- Cria Banco de dados UVV com suas propriedades e permissões
-CREATE DATABASE IF NOT EXISTS uvv;
-
--- Concede todos privilégios de administrador ao usuário
-GRANT ALL PRIVILEGES ON uvv.* TO joao; 
-
--- Entra com o usuário criado no SGBD
-SYSTEM mysql -u joao -p;
-
--- Entra no BD criado
-use uvv;
-
-/*#####################################################################################*/
+* CONTINUAÇÂO SCRIPT 1
+* #####################################################################################*/
 
 /*
 * PARTE 2
 * Criação das tabelas do BD.
 */
+
+-- Entra no BD criado
+use uvv;
 
 -- Desabilita a checagem das FKs pra fazer atualização do BD
 SET FOREIGN_KEY_CHECKS=0; -- to disable them
