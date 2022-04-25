@@ -19,7 +19,10 @@ GRANT ALL PRIVILEGES ON uvv.* TO joao;
 -- Entra com o usuário criado no SGBD
 SYSTEM mysql -u joao -p;
 
--- Entra no BD criado
-use uvv;
+/*
+* O terminal irá pedir uma senha para logar como usuário "joao"
+* escreva a senha do usuário => "1234", após isso você estará logado
+* como usuário "joao" no SGBD.
+*/
 
 /*#####################################################################################*/
