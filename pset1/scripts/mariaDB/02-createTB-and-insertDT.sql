@@ -286,3 +286,6 @@ INSERT INTO uvv.trabalha_em
         ('98765432168'  , 20  , 15.0),
         ('88866555576'  , 20  , null)
 ;
+
+
+-- FIM DO SCRIPT
