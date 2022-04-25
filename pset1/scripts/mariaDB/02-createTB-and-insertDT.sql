@@ -113,7 +113,7 @@ DROP TABLE IF EXISTS uvv.projeto CASCADE;
 CREATE TABLE IF NOT EXISTS uvv.projeto (
 	numero_projeto      	INTEGER     NOT NULL	COMMENT 'Número do projeto. É a PK desta tabela.'
 		CHECK (numero_projeto > 0),
-    nome_projeto        	VARCHAR(15) NOT NULL	COMMENT 'Nome do projeto. Deve ser único.',
+    nome_projeto        	VARCHAR(30) NOT NULL	COMMENT 'Nome do projeto. Deve ser único.',
 	local_projeto       	VARCHAR(15)				COMMENT 'Localização do projeto.',
     numero_departamento 	INTEGER     NOT NULL 	COMMENT 'Número do departamento. É uma FK para a tabela departamento.',
 	CONSTRAINT pk_projeto 
