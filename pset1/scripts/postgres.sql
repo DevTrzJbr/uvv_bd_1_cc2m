@@ -22,7 +22,7 @@ ALTER DATABASE uvv SET datestyle TO SQL, DMY;
 
 
 -- Altera conexão com o banco de dados criado
-\connect uvv;
+\connect uvv joao;
 
 /*
 * Existem sistemas que não conseguem fazer a transição direta,
