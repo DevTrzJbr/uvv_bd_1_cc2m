@@ -11,7 +11,7 @@ CREATE USER IF NOT EXISTS joao
     IDENTIFIED BY '1234';
 
 -- Cria Banco de dados UVV com suas propriedades e permissões
-CREATE DATABASE IF NOT EXISTS uvv;
+CREATE DATABASE IF NOT EXISTS uvv CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- Concede todos privilégios de administrador ao usuário
 GRANT ALL PRIVILEGES ON uvv.* TO joao; 
