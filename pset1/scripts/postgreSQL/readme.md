@@ -8,7 +8,7 @@
       
         psql -U postgres -W -f postgres.sql
 
-e inserir a senha.
+e insera a senha.
 
 ------------
 
