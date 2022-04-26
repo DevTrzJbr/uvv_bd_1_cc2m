@@ -1,11 +1,21 @@
-Baixar o script [MariaDB.sql](mariaDB.sql) em uma pasta da maquina local
+# Guia Basico para executar o script de criação do BD
 
-Nessa pasta local abrir pelo terminal
+1. Baixar o script [mariaDB.sql](mariaDB.sql) em uma pasta da maquina local
 
-Entrar no MariaDB 
+> Abra a pasta com o arquivo pelo terminal
 
-com o comando " mysql "
+2. Entre no SGBD com o comando:
 
-após entrar no SGBD executar o comando 
+        mysql -p
+        
+e insira a senha padrão do SGBD.
 
-" source mariaDB.sql " ele ira criar automaticamente o banco de dados
+> Você deve estar dentro agora.
+
+3. Para executar o script escreva:
+
+        source mariaDB.sql
+
+------------
+
+Com isso seu banco de dados será criado no SGBD PostgreSQL, pronto para ser usádo.
