@@ -13,7 +13,9 @@ CREATE ROLE joao SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN PASSWORD '1234';
 create database uvv   -- cria banco de dados
 		with owner joao -- adiciona usuário proprietário do banco de dados
 		template template0 -- usar template do banco de dados 
-		encoding 'UTF8'  
+		encoding 'UTF8'
+   		LC_COLLATE = 'pt_BR.UTF-8'
+		LC_CTYPE = 'pt_BR.UTF-8'
 		allow_connections true
 ;
 
