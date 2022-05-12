@@ -3,6 +3,22 @@
 O Problem Set 2 é uma extensão do [Problem Set 1](https://github.com/DevTrzJbr/uvv_bd_1_cc2m/tree/main/pset1) onde seram feito relatórios de acordo com os pedidos das questões abaixo.
 
 
+## Como executar o script
+
+1. Baixar o script [pset2.sql](pset2.sql) em uma pasta da maquina local
+
+> Abra a pasta com o arquivo pelo terminal
+
+2. digite ou cole com `Ctrl + Shift + v` o comando:
+      
+        psql {banco de dados} -U {usuário} -W -f pset2.sql
+
+e insera a senha.
+
+------------
+
+você verá algo como ...
+
 ### questao 1
 
 > Mostra a média salarial dos funcionários de cada departamento.
