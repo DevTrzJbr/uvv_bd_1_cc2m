@@ -3,7 +3,7 @@
 O Problem Set 2 é uma extensão do [Problem Set 1](https://github.com/DevTrzJbr/uvv_bd_1_cc2m/tree/main/pset1) onde seram feito relatórios de acordo com os pedidos das questões abaixo.
 
 
-## Como executar o script
+## Como executar o script no postgreSQL
 
 1. Baixar o script [pset2.sql](pset2.sql) em uma pasta da maquina local
 
