@@ -13,6 +13,7 @@ Psets Resolvidos
 ------------
 
 - [Problem Set 1](/pset1)
+- [Problem Set 2](/pset2)
 
 ## Ciência da Computação UVV
 - **Aluno:** João Víctor de Alcantara Antunes
